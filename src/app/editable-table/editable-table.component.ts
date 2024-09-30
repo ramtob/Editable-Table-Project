@@ -27,7 +27,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class EditableTableComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    console.log('EditableTable ngOnInit');
+    // throw new Error('Method not implemented.');
   }
   displayedColumns: string[] = ['name', 'age'];
   dataSource = ELEMENT_DATA;
